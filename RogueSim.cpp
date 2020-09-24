@@ -32,7 +32,6 @@ int main() {
 	get_fight_info(combat_info);
 
 	// Run Combat Sims
-	long unsigned iter_count = 0;
 	std::vector<unsigned> damage_results;
 	std::vector<unsigned double> dps_results;
 	for(long unsigned i = 0; i < combat_info.iterations; i++) {

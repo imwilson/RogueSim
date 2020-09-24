@@ -4,7 +4,15 @@ using namespace std;
 
 void ask_helm() {
 	cout << "Enter your helm from the list below: " << endl;
-	cout << "" << endl;
+	cout << "
+	Bonescythe helm \n
+	Deathdealer helm \n
+	Bloodfang helm \n
+	Nightslayer helm \n
+	Darkmantle helm \n
+	Shadowcraft Cap \n
+	" << endl;
+
 }
 void ask_neck();
 void ask_shoulder();
